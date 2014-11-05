@@ -1,16 +1,20 @@
-div#top
+#top
 {
 	background-color: #2d2d2d;
-	height = 200px;
-	width = 200px;
+	height = 400px;
+	width = 100%;
+}
+#top h1
+{
+	color: white;
 }
 
-div#menu
+#menu
 {
 	background-color: #2d2d2d;
 }
 
-div#menu ul li
+#menu ul li
 {
 	list-style: none;
 	display:inline;
@@ -21,7 +25,7 @@ div#menu ul li
 	text-align: center;
 }
 
-div#menu ul li a
+#menu ul li a
 {
 	text-decoration: none;
 	color: white;
@@ -32,7 +36,7 @@ div#menu ul li a
 	font-family: "Trebuchet MS", Dotum, Arial;
 }
 
-div#menu ul li a:hover 
+#menu ul li a:hover 
 {
 	color: red;
 	background-color: #4d4d4d;
