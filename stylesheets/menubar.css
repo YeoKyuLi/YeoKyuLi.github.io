@@ -18,7 +18,8 @@
 	list-style: none;
 	background-color: #2d2d2d;
 	color: white;
-	float: left;
+	display: block;
+	float: right;
 	line-height: 30px;
 	vertical-align: middle;
 	text-align: center;
@@ -39,4 +40,29 @@
 {
 	color: red;
 	background-color: #4d4d4d;
+}
+.submenulink
+{
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+	font-family: "Trebuchet Ms", Dotum;
+	color: #2d2d2d;
+	background-color: white;
+
+}
+.submenu
+{
+	position: absolute;
+	height: 0px;
+	overflow: hidden;
+	transition: height .2s;
+	-webkit-transition: height .2s;
+	-moz0transition: height .2s;
+	-o-transitionL height .2s;
+}
+.sumbmenulink:hover
+{
+	color: red;
+	background-color: #dddddd;
 }
