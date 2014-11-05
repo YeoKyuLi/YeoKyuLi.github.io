@@ -11,7 +11,6 @@
 
 #menu
 {
-	background-color: #2d2d2d;
 	height = 400px;
 	width = 100%;
 }
@@ -19,6 +18,7 @@
 #menu ul li
 {
 	list-style: none;
+	background-color: #2d2d2d;
 	display:inline;
 	color: white;
 	float: left;
