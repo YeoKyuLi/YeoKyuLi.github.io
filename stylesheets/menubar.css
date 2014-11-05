@@ -8,7 +8,7 @@
 	float:rigth; <!--right-->
 	margin : 10px
 }
-#mene ul li a{
+#menu ul li a{
 	text-decoration:none; <!-- remove under line -->
 	color:white;
 }
