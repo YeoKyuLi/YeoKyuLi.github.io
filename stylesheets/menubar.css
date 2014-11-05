@@ -1,0 +1,17 @@
+#menu ul{
+	background-color:grey;
+}
+#menu ul li{
+	display:inline;
+	border-left: 2px solid black;
+	padding-left:0px;
+	float:rigth; <!--right-->
+	margin : 10px
+}
+#mene ul li a{
+	text-decoration:none; <!-- remove under line -->
+	color:white;
+}
+#menu ul li:first-child{
+	border-left: none;
+}
