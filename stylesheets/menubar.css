@@ -1,3 +1,10 @@
+#top
+{
+	background-color: red;
+	height = 200px;
+	width = 200px;
+}
+
 #menu
 {
 	background-color: #2d2d2d;
