@@ -12,6 +12,8 @@
 #menu
 {
 	background-color: #2d2d2d;
+	height = 400px;
+	width = 100%;
 }
 
 #menu ul li
