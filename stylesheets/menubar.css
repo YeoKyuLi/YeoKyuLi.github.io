@@ -3,15 +3,15 @@
 }
 #menu ul li{
 	display:inline;
-	border-left: 2px solid black;
+	border-left: 1px solid black;
 	padding-left:0px;
-	float:rigth; <!--right-->
-	margin : 10px
+	float:right; <!--right-->
+	margin : 0px 7px 0px 10px;
 }
 #menu ul li a{
-	text-decoration:none; <!-- remove under line -->
+	text-decoration:none;<!-- remove under line -->
 	color:white;
 }
 #menu ul li:first-child{
-	border-left: none;
+	border-left:none;
 }
