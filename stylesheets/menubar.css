@@ -45,11 +45,14 @@
 {
 	display: none;
 	position: absolute;
+	overflow: hidden;
 	background-color: red;
 }
 #menu ul li:hover ul
 {
 	display: block;
+	color: red;
+	background-color: #4d4d4d;
 }
 #menu ul ul li
 {
