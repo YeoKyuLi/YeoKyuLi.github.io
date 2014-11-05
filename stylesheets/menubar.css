@@ -45,7 +45,7 @@
 {
 	display: none;
 	position: absolute;
-	background-color: #4d4d4d;
+	background-color: red;
 }
 #menu ul li:hover ul
 {
@@ -53,5 +53,5 @@
 }
 #menu ul ul li
 {
-	float: none;
+	float:none;
 }	
