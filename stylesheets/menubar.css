@@ -1,14 +1,16 @@
 #menu{
-	background-color: #2d2d2d;
+	<!-- background-color: #2d2d2d; -->
+	height: 30px;
+	width: 850px;
 }
 #menu ul li{
 	list-style: none;
 	background-color: #2d2d2d;
-	display:inline;
-	border-left: 1px solid black;
-	padding-left:0px;
-	float: middle; <!--right-->
-	margin : 10px 10px 10px 10px;
+	color: white;
+	float: left;
+	line-height: 30px;
+	vertical-align: middle;
+	text-align: center;
 }
 #menu ul li: first-child{
 	border-left: none;
@@ -19,6 +21,7 @@
 	color: white;
 	font-size: 20px;
 	font-weight: bold;
+	display: block;
 	font-family: "Trebuchet MS", Dotum, Arial;
 }
 #menu ul li a:hover {
