@@ -3,10 +3,10 @@
 }
 #menu ul li{
 	display:inline;
-	border-left: 1px solid black;
+	<!--border-left: 1px solid black;-->
 	padding-left:0px;
 	float:right; <!--right-->
-	margin : 0px 7px 0px 10px;
+	margin : 10px 10px 10px 10px;
 }
 #menu ul li a{
 	text-decoration:none;<!-- remove under line -->
