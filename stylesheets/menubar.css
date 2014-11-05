@@ -5,12 +5,12 @@ div#top
 	width = 200px;
 }
 
-#menu
+div#menu
 {
 	background-color: #2d2d2d;
 }
 
-#menu ul li
+div#menu ul li
 {
 	list-style: none;
 	display:inline;
@@ -21,7 +21,7 @@ div#top
 	text-align: center;
 }
 
-#menu ul li a
+div#menu ul li a
 {
 	text-decoration: none;
 	color: white;
@@ -32,7 +32,7 @@ div#top
 	font-family: "Trebuchet MS", Dotum, Arial;
 }
 
-#menu ul li a:hover 
+div#menu ul li a:hover 
 {
 	color: red;
 	background-color: #4d4d4d;
