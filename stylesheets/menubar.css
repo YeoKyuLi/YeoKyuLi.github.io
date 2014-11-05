@@ -3,14 +3,15 @@
 	background-color: #2d2d2d;
 	vertical-align: middle;
 	display:inline;
-	<!--border-left: 1px solid black;-->
+	border-left: 1px solid black;
 	padding-left:0px;
 	float:right; <!--right-->
 	margin : 10px 10px 10px 10px;
 }
-#menu ul li:first-child{
-	border-left:none;
+#menu ul li: first-child{
+	border-left: none;
 }
+
 #menu ul li a{
 	text-decoration:none;<!-- remove under line -->
 	color:white;
