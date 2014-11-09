@@ -23,7 +23,7 @@
 	list-style: none;	//remove point
 	color:white;
 	background-color:#2d2d2d;
-	float:left;
+	float:right;
 	line-height:30px;
 	vertical-align:middle;
 	text-align:center;
@@ -42,6 +42,51 @@
 {
 	color:red;
 	background-color:#4d4d4d;
+}
+.submenu_content
+{
+	width:150px;
+	font-size:15px;
+	font-weight:bold;
+	font-family:"Trebuchet Ms", Dotum, Arial;
+	color:white;
+	display:block;
+	text-decoration:none;
+}
+.menu_content
+{
+	color:white;
+}
+.topmenu:hover .menu_content
+{
+	color:red;
+	background-color:#4d4d4d;
+}
+.submenu_content
+{
+	color:#2d2d2d;
+	background-color:white;
+	border: solid 1px black;
+	margin-top: -1px;
+}
+.submenu
+{
+	position: absolute;
+	height: 0px;
+	overflow: hidden; 
+	transition: height .2s;
+	-webkit-transition: height .2s;
+	-moz-transition: height .2s;
+	-o-transition: height .2s;
+}
+.topMenu:hover .submenu
+{
+	height:90px;
+}
+.submenu_content:hover
+{
+	color:red;
+      background-color:#dddddd;
 }
 #content
 {
