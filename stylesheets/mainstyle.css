@@ -15,9 +15,8 @@
 }
 #content
 {
-	width:100%;
-	float: left;
-	clear: both;
+	width:70%;
+	float: right;
 	background-color: #4d4d4d;
 
 }
@@ -25,7 +24,16 @@
 {
 	color: black;
 }
-
+#sidebar
+{
+	width: 30%;
+	float: left;
+	background-color: red;
+}
+.sidebar_h1
+{
+	color: red;
+}
 #footer
 {
 	width: 100%;
